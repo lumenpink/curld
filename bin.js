@@ -10,7 +10,7 @@ var parsed
 const helpString =
     `${pkg.description}
 Usage
-  $ dcurl <curl_command>
+  $ curld <curl_command>
   
 Options
   -v, --version	Print version
@@ -131,7 +131,7 @@ process.argv.map(arg => {
 })
 
 if (process.stdin.isTTY)
-    if (!input)
+    if (!process.argv[2])
         printHelp()
     else
         init(input)
