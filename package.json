@@ -1,6 +1,6 @@
 {
   "name": "curld",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cURL for Distributed Web command line",
   "main": "index.js",
   "repository": {
