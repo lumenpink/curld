@@ -1,11 +1,11 @@
 {
-  "name": "dcurl",
+  "name": "curld",
   "version": "0.0.1",
-  "description": "Distributed cURL",
+  "description": "cURL for Distributed Web command line",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lohn/dcurl.git"
+    "url": "git+https://github.com/lohn/curld.git"
   },
   "author": "Josemar Lohn <j@lo.hn>",
   "license": "SEE LICENSE IN LICENSE",
@@ -20,12 +20,12 @@
     "parse-curl": "^0.2.6"
   },
   "bin": {
-    "dcurl": "bin.js"
+    "curld": "bin.js"
   },
   "bugs": {
-    "url": "https://github.com/lohn/dcurl/issues"
+    "url": "https://github.com/lohn/curld/issues"
   },
-  "homepage": "https://github.com/lohn/dcurl#readme",
+  "homepage": "https://github.com/lohn/curld#readme",
   "devDependencies": {},
   "scripts": {
     "test": "node test.js"
