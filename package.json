@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "description": "Distributed cURL",
   "main": "index.js",
-  "repository": "https://www.github.com/lohn/dcurl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lohn/dcurl.git"
+  },
   "author": "Josemar Lohn <j@lo.hn>",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "dependencies": {
     "dat-fetch": "^5.1.1",
@@ -17,6 +20,23 @@
     "parse-curl": "^0.2.6"
   },
   "bin": {
-    "dcurl": "./bin.js"
-  }
+    "dcurl": "bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lohn/dcurl/issues"
+  },
+  "homepage": "https://github.com/lohn/dcurl#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "curl",
+    "distributed",
+    "fetch",
+    "ipfs",
+    "hypercore",
+    "dat",
+    "gemini"
+  ]
 }
