@@ -17,7 +17,7 @@ or
 
 ## Use
 
-In this early versions you can only use GET requests and the output is always the terminal.
+In these early versions, you can only use GET requests, and the output is always in the terminal.
 
 ```
 curld protocol://server/directory/filename
@@ -33,7 +33,7 @@ curld protocol://server/directory/filename > newfilename
 ### Dat Protocol
 
 Apparently the DAT protocol support doesn't run with old DAT drives.
-I have to test this more.
+I will have to test this more.
 
 ```
 curld dat://blog.maeve.moe
@@ -60,7 +60,7 @@ curld hyper://blog.maeve.moe/
 
 ### IPFS protocol
 
-The support for IPNS is still broken. Only IPNS requests can be made.
+The support for IPFS is still broken. Only IPNS requests can be made.
 
 ```
 curld ipns://ipfs.io/
